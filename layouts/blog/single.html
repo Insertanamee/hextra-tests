@@ -1,3 +1,12 @@
-{{ define "aside" }}
-  {{/* Intentionally empty to disable aside */}}
+{{ define "main" }}
+<div class="hx-container hx-mx-auto">
+  <div class="hx-flex">
+    <!-- Main content (full width) -->
+    <div class="hx-w-full hx-px-4">
+      {{ partial "page-header.html" . }}
+      {{ partial "prose.html" . }}
+      {{ partial "page-footer.html" . }}
+    </div>
+  </div>
+</div>
 {{ end }}
