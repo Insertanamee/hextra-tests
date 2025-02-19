@@ -29,8 +29,8 @@ menu:
       params:
         type: search
     - name: GitHub
-      weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
+      weight: 4
+      url: "https://insertanamee.github.io/hextra-starter-template/"
       params:
         icon: github
 
