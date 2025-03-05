@@ -11,6 +11,16 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+    parser:
+      autoHeadingID: true
+      attribute:
+        block: true
+        title: true
+    extensions:
+      typographer: true
+      typographer:
+        subscript: true
+        superscript: true
 
   # enable hextra syntax highlight
   highlight:
