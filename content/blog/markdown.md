@@ -151,6 +151,8 @@ func main() {
 | Header    | Title       |
 | Paragraph | Text        |
 
+^text^ ~text~
+
 ## References
 
 - [Markdown Syntax](https://www.markdownguide.org/basic-syntax/)
