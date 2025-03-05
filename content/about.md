@@ -4,3 +4,6 @@ type: about
 ---
 
 This is the about page.
+
+
+^text^ ~text~
